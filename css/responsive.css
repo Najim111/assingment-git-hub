@@ -68,12 +68,52 @@
 /* play part */
 .play-contein{
     flex-direction: column;
-    margin: 100px 240px !important;
+    margin: 100px 200px !important;
 }
 .play-contein .play-text{
         margin: 10px 10px 40px 10px;
   
 }
+
+/* button part */
+.button-conteiner{
+    margin: 80px 50px  !important;
+}
+footer{
+    width: 100% !important;
+}
+.footer-conteiner{
+    padding: 0 !important;
+
+}
+}
+
+
+
+
+@media screen and (max-width:577px) and (max-width:960px){
+
+    .logo-conteiner {
+        flex-direction: column;
+        margin: 0 100px !important;
+        
+    }
+    .nav-text ul{
+        flex-direction: column;
+    }
+    .banner-text{
+        margin-right: 300px !important;
+    }
+    .banner-img {
+        padding-left: 500px !important;
+    }
+    .banner-text .btn-first{
+        margin-left: 100px !important;
+
+    }
+    .we-are-gamar-img{
+        margin-right: 100px !important;
+    }
 
 
 }
