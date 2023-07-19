@@ -49,4 +49,29 @@
     .we-are-gamar-text{
         margin-left: 200px;
     }
+    /* card part */
+    #main-card-conteiner {
+        width: 100% !important;
+        margin-top: 100px !important ;
+    }
+    .card {
+      flex-direction: column;
+    }
+    .card .conteiner{
+        width: 100%;
+        margin-top: 100px !important;
+
+    }
+    .card .conteiner .title-1 {
+        margin-top: 50px !important;
+    }
+
+
+
+
+
+
+
+
+
 }

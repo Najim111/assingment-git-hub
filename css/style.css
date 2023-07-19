@@ -133,10 +133,12 @@ nav {
     display: flex;
     margin: 0 240px;
 }
-.we-are-gamar-img{
+
+.we-are-gamar-img {
     width: 100%;
 }
-.we-are-gamar-text{
+
+.we-are-gamar-text {
     width: 100%;
     margin-top: 95px;
 }
@@ -168,16 +170,66 @@ nav {
     padding: 10px 30px;
     color: #FFF;
 }
-.we-are-gamar-text .we-are-gamer-p{
+
+.we-are-gamar-text .we-are-gamer-p {
     color: #534C64;
     font-size: 32px;
     font-weight: 700;
     line-height: 45px;
 }
-.we-are-gamar-text .p2{
+
+.we-are-gamar-text .p2 {
     color: #534C64;
     text-align: right;
     font-size: 24px;
     font-weight: 500;
     line-height: 45px;
+}
+
+/* card part */
+#main-card-conteiner {
+    margin: 0 240px;
+}
+
+#main-card-conteiner h2 {
+    text-align: center;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    
+    margin-bottom: 20px;
+}
+
+#main-card-conteiner .title {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#main-card-conteiner h2 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card .conteiner {
+    border-radius: 16px;
+}
+.card .conteiner .title-1 {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 340px;
 }
