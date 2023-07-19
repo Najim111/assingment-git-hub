@@ -65,13 +65,27 @@
     .card .conteiner .title-1 {
         margin-top: 50px !important;
     }
-
-
-
-
-
-
-
+/* play part */
+.play-contein{
+    flex-direction: column;
+    margin: 100px 240px !important;
+}
+.play-contein .play-text{
+        margin: 10px 10px 40px 10px;
+  
+}
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+

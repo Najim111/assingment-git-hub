@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Work Sans', sans-serif;
 }
@@ -232,4 +231,39 @@ nav {
     font-weight: 500;
     line-height: 30px;
     width: 340px;
+}
+
+/* play-style */
+
+.play-contein{
+    display: flex;
+    margin: 100px 240px 0 440px;
+}
+.play-contein .play-text{
+    margin: 150px 150px 50px 0;
+}
+.play-contein .play-text h2{
+    text-align: right;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+.play-contein .play-text span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+ background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.play-contein .play-text p{
+    color: #534C64;
+    text-align: right;
+    font-weight: 400;
+    line-height: 30px;
+    width: 350px;
+}
+.play-imag .choto-img{
+    position: relative;
+    right: 100px;
+    bottom: 300px;
 }
