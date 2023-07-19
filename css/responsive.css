@@ -1,4 +1,36 @@
-@media screen and (max-width:425px) {
+@media screen and (max-width:576px) {
+    .logo-conteiner, 
+    .banner-conteiner {
+        flex-direction: column;
+        margin: 0 auto !important;
+    }
+    .game{
+        padding: 0 !important;
+    }
+    .nav-text ul{
+        flex-direction: column;
+    }
+    .icon{
+        padding: 20px !important;
+        margin-top: 20px;
+        margin-left: 10px !important;
+    }
+    .nav-text li{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .banner-text{
+        width: 90% !important;
+    }
+    .banner-text .btn-first{
+        margin-left: 150px !important;
+    }
     
+    .banner-text .btn-second{
+        margin-right: 80px !important;
+    }
+    .banner-img{
+        width: 100% !important;
+    }
     
 }
