@@ -1,6 +1,7 @@
 @media screen and (max-width:576px) {
     .logo-conteiner, 
-    .banner-conteiner {
+    .banner-conteiner,
+    .we-are-gamar-conteiner {
         flex-direction: column;
         margin: 0 auto !important;
     }
@@ -20,17 +21,32 @@
         text-align: center;
     }
     .banner-text{
-        width: 90% !important;
+        width: 100% !important;
     }
     .banner-text .btn-first{
         margin-left: 150px !important;
     }
     
     .banner-text .btn-second{
-        margin-right: 80px !important;
+        margin-left: 150px !important;
     }
     .banner-img{
-        width: 100% !important;
+        width: 80% !important;
     }
-    
+  
+    .we-are-gamar-img{
+        width: 80%;
+    }
+    .we-are-gamar-text h2 p {
+        text-align:center;
+    }
+    .we-are-gamar-text button {
+        margin-left: 300px !important;
+    }
+    .we-are-gamar-text .p2{
+        text-align:center;
+    }
+    .we-are-gamar-text{
+        margin-left: 200px;
+    }
 }
